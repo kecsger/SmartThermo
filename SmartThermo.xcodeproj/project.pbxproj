@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8993CA19F5932E001F03AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8993C919F5932E001F03AC /* main.m */; };
+		AC8993CD19F5932E001F03AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8993CC19F5932E001F03AC /* AppDelegate.m */; };
+		AC8993D019F5932E001F03AC /* SmartThermo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC8993CE19F5932E001F03AC /* SmartThermo.xcdatamodeld */; };
+		AC8993D319F5932F001F03AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8993D219F5932F001F03AC /* ViewController.m */; };
+		AC8993D619F5932F001F03AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8993D419F5932F001F03AC /* Main.storyboard */; };
+		AC8993D819F5932F001F03AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8993D719F5932F001F03AC /* Images.xcassets */; };
+		AC8993DB19F5932F001F03AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC8993D919F5932F001F03AC /* LaunchScreen.xib */; };
+		AC8993E719F59331001F03AC /* SmartThermoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8993E619F59331001F03AC /* SmartThermoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8993E119F59330001F03AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8993BC19F5932D001F03AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8993C319F5932E001F03AC;
+			remoteInfo = SmartThermo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC8993C419F5932E001F03AC /* SmartThermo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartThermo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8993C819F5932E001F03AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8993C919F5932E001F03AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC8993CB19F5932E001F03AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC8993CC19F5932E001F03AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC8993CF19F5932E001F03AC /* SmartThermo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartThermo.xcdatamodel; sourceTree = "<group>"; };
+		AC8993D119F5932E001F03AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC8993D219F5932F001F03AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC8993D519F5932F001F03AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC8993D719F5932F001F03AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC8993DA19F5932F001F03AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC8993E019F59330001F03AC /* SmartThermoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartThermoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8993E519F59331001F03AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8993E619F59331001F03AC /* SmartThermoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartThermoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8993C119F5932E001F03AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8993DD19F59330001F03AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8993BB19F5932D001F03AC = {
+			isa = PBXGroup;
+			children = (
+				AC8993C619F5932E001F03AC /* SmartThermo */,
+				AC8993E319F59330001F03AC /* SmartThermoTests */,
+				AC8993C519F5932E001F03AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8993C519F5932E001F03AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8993C419F5932E001F03AC /* SmartThermo.app */,
+				AC8993E019F59330001F03AC /* SmartThermoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8993C619F5932E001F03AC /* SmartThermo */ = {
+			isa = PBXGroup;
+			children = (
+				AC8993CB19F5932E001F03AC /* AppDelegate.h */,
+				AC8993CC19F5932E001F03AC /* AppDelegate.m */,
+				AC8993D119F5932E001F03AC /* ViewController.h */,
+				AC8993D219F5932F001F03AC /* ViewController.m */,
+				AC8993D419F5932F001F03AC /* Main.storyboard */,
+				AC8993D719F5932F001F03AC /* Images.xcassets */,
+				AC8993D919F5932F001F03AC /* LaunchScreen.xib */,
+				AC8993CE19F5932E001F03AC /* SmartThermo.xcdatamodeld */,
+				AC8993C719F5932E001F03AC /* Supporting Files */,
+			);
+			path = SmartThermo;
+			sourceTree = "<group>";
+		};
+		AC8993C719F5932E001F03AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8993C819F5932E001F03AC /* Info.plist */,
+				AC8993C919F5932E001F03AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC8993E319F59330001F03AC /* SmartThermoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8993E619F59331001F03AC /* SmartThermoTests.m */,
+				AC8993E419F59331001F03AC /* Supporting Files */,
+			);
+			path = SmartThermoTests;
+			sourceTree = "<group>";
+		};
+		AC8993E419F59331001F03AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8993E519F59331001F03AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8993C319F5932E001F03AC /* SmartThermo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8993EA19F59331001F03AC /* Build configuration list for PBXNativeTarget "SmartThermo" */;
+			buildPhases = (
+				AC8993C019F5932E001F03AC /* Sources */,
+				AC8993C119F5932E001F03AC /* Frameworks */,
+				AC8993C219F5932E001F03AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartThermo;
+			productName = SmartThermo;
+			productReference = AC8993C419F5932E001F03AC /* SmartThermo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8993DF19F59330001F03AC /* SmartThermoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8993ED19F59331001F03AC /* Build configuration list for PBXNativeTarget "SmartThermoTests" */;
+			buildPhases = (
+				AC8993DC19F59330001F03AC /* Sources */,
+				AC8993DD19F59330001F03AC /* Frameworks */,
+				AC8993DE19F59330001F03AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8993E219F59330001F03AC /* PBXTargetDependency */,
+			);
+			name = SmartThermoTests;
+			productName = SmartThermoTests;
+			productReference = AC8993E019F59330001F03AC /* SmartThermoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8993BC19F5932D001F03AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Gergely Kecskes";
+				TargetAttributes = {
+					AC8993C319F5932E001F03AC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					AC8993DF19F59330001F03AC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = AC8993C319F5932E001F03AC;
+					};
+				};
+			};
+			buildConfigurationList = AC8993BF19F5932D001F03AC /* Build configuration list for PBXProject "SmartThermo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8993BB19F5932D001F03AC;
+			productRefGroup = AC8993C519F5932E001F03AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8993C319F5932E001F03AC /* SmartThermo */,
+				AC8993DF19F59330001F03AC /* SmartThermoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8993C219F5932E001F03AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8993D619F5932F001F03AC /* Main.storyboard in Resources */,
+				AC8993DB19F5932F001F03AC /* LaunchScreen.xib in Resources */,
+				AC8993D819F5932F001F03AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8993DE19F59330001F03AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8993C019F5932E001F03AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8993CD19F5932E001F03AC /* AppDelegate.m in Sources */,
+				AC8993D019F5932E001F03AC /* SmartThermo.xcdatamodeld in Sources */,
+				AC8993D319F5932F001F03AC /* ViewController.m in Sources */,
+				AC8993CA19F5932E001F03AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8993DC19F59330001F03AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8993E719F59331001F03AC /* SmartThermoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8993E219F59330001F03AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8993C319F5932E001F03AC /* SmartThermo */;
+			targetProxy = AC8993E119F59330001F03AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC8993D419F5932F001F03AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8993D519F5932F001F03AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC8993D919F5932F001F03AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8993DA19F5932F001F03AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC8993E819F59331001F03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC8993E919F59331001F03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8993EB19F59331001F03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartThermo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC8993EC19F59331001F03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartThermo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC8993EE19F59331001F03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartThermoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartThermo.app/SmartThermo";
+			};
+			name = Debug;
+		};
+		AC8993EF19F59331001F03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartThermoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartThermo.app/SmartThermo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8993BF19F5932D001F03AC /* Build configuration list for PBXProject "SmartThermo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8993E819F59331001F03AC /* Debug */,
+				AC8993E919F59331001F03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8993EA19F59331001F03AC /* Build configuration list for PBXNativeTarget "SmartThermo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8993EB19F59331001F03AC /* Debug */,
+				AC8993EC19F59331001F03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC8993ED19F59331001F03AC /* Build configuration list for PBXNativeTarget "SmartThermoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8993EE19F59331001F03AC /* Debug */,
+				AC8993EF19F59331001F03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC8993CE19F5932E001F03AC /* SmartThermo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC8993CF19F5932E001F03AC /* SmartThermo.xcdatamodel */,
+			);
+			currentVersion = AC8993CF19F5932E001F03AC /* SmartThermo.xcdatamodel */;
+			path = SmartThermo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC8993BC19F5932D001F03AC /* Project object */;
+}
